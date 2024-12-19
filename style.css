@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.btnClose,.btnOpen{
+    background-color: red;
+    border: none;
+    margin: 10px;
+    border-radius: 8px;
+}
+.btnClose{
+    position: absolute;
+    margin-left: 120px;
+}
+.slidbarnav{
+    height: 100vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 120px;
+
+}
+.slidbarnav li{
+    margin-top: 20px;
+}
+.hide{
+    display: none;
+    background-color: blue;
+}
